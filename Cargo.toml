@@ -1,0 +1,17 @@
+[package]
+name = "rs2048"
+version = "0.1.0"
+authors = ["ka7eh <kaveh.ka@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "rs2048"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rs2048"
+path = "src/main.rs"
+
+[dependencies]
+rand = "0.8"
+termion = "1.5"
